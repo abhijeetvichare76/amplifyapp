@@ -16,7 +16,7 @@ const Profile = () => {
   return (
     <div>
       <h2 className="mb-5 text-center">
-        Engineering Cloud Computing Project
+        ENGR-E 516 Project
       </h2>
       <div>
         {picture == '' ? (
@@ -51,7 +51,7 @@ const Profile = () => {
             }}
             className="btn btn-danger"
           >
-            Capture and Upload
+            Capture and Upload to S3
           </button>
         )}
       </div>
